@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.App-wrapper {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100%;            /* full viewport */
+  padding: 20px;
+}
+
+.table-wrapper {
+  max-width: 900px; /* limits table width */
+  width: 100%;
+}
