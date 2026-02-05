@@ -43,13 +43,13 @@ The project uses the **JSONPlaceholder API** to simulate backend operations and 
 
 ## 📂 Project Structure
 
-```bash
+```
 API_CRUD_Project/
 ├── screenshots/                  # All screenshots
-│   ├── main.png
-│   ├── add.png
-│   ├── edit.png
-│   └── delete.png
+│   ├── main-page.png
+│   ├── add-user.png
+│   ├── edit-user.png
+│   └── delete-user.png
 │
 ├── public/
 │   └── index.html
@@ -65,13 +65,12 @@ API_CRUD_Project/
 │
 ├── package.json
 └── README.md
-
+```
 
 ---
 
 ## ▶️ Run Locally
 
-```bash
 # Clone the repository
 git clone https://github.com/royhamlinjr/API_CRUD_Project.git
 
@@ -89,20 +88,24 @@ http://localhost:3000
 
 ---
 
-
 ## 📸 Screenshots
 
 ### 1. Home Page
-![Home Screen](screenshots/main.png)
+Displays all users fetched from the API in a clean table.
+![Home Screen](screenshots/main-page.png)
 
 ### 2. Add User
-![Add User](screenshots/add.png)
+Form to create a new user.
+![Add User](screenshots/add-user.png)
 
 ### 3. Update User
-![Update User](screenshots/edit.png)
+Edit an existing user’s details.
+![Update User](screenshots/edit-user.png)
 
-### 2. Delete User
-![Delete User](screenshots/delete.png)
+### 4. Delete User
+Delete a user from the table.
+![Delete User](screenshots/delete-user.png)
+
 
 
 That’s it. Nothing more.
