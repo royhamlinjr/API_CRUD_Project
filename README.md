@@ -45,6 +45,13 @@ The project uses the **JSONPlaceholder API** to simulate backend operations and 
 
 ```bash
 API_CRUD_Project/
+├── assets/                  # All screenshots
+│   ├── main-page.png
+│   ├── add-user.png
+│   ├── edit-user.png
+│   ├── delete-user.png
+│   └── mobile-view.png
+│
 ├── public/
 │   └── index.html
 │
@@ -59,6 +66,7 @@ API_CRUD_Project/
 │
 ├── package.json
 └── README.md
+
 
 ---
 
@@ -79,6 +87,41 @@ npm start
 
 # The application will be available at:
 http://localhost:3000
+
+---
+
+## 📸 Screenshots
+
+Here are some screenshots demonstrating the key features of the API CRUD Project:
+
+---
+
+### **1. Main Page / User List**
+Displays all users fetched from the JSONPlaceholder API in a clean, responsive table.
+
+![Main Page](assets/main-page.png)
+
+---
+
+### **2. Add New User**
+Form to create a new user with live API integration.
+
+![Add User](assets/add-user.png)
+
+---
+
+### **3. Edit User**
+Edit an existing user’s details using the modal/form interface.
+
+![Edit User](assets/edit-user.png)
+
+---
+
+### **4. Delete User**
+Delete a user from the table with instant UI update.
+
+![Delete User](assets/delete-user.png)
+
 
 That’s it. Nothing more.
 
