@@ -49,8 +49,7 @@ API_CRUD_Project/
 │   ├── main-page.png
 │   ├── add-user.png
 │   ├── edit-user.png
-│   ├── delete-user.png
-│   └── mobile-view.png
+│   └── delete-user.png
 │
 ├── public/
 │   └── index.html
